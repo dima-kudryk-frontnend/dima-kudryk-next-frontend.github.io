@@ -1,0 +1,2318 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-Lifht";
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+  font-weight: bold;
+}
+.container-background {
+  height: 700px;
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  opacity: 1;
+  position: relative;
+}
+.container-background .header_page__header {
+  width: 585px;
+  height: 300px;
+  position: absolute;
+  top: 37%;
+  left: 27%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container-background .header_page__header .header_page__h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.container-background .header_page__header .header__page_p {
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.container-background .header_page__header .btn-danger {
+  border: 0;
+}
+
+.menu {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.menu .righ {
+  font-weight: 900;
+  font-size: 30px;
+  opacity: 2;
+}
+
+.btn {
+  padding: 0.375rem 1.75rem;
+  font-size: 1rem;
+  border-radius: 1.25rem;
+  border: 1px solid white;
+}
+
+.container .title-in-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+.container .types-of-work {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.container .types-of-work .first-types {
+  width: 300px;
+  height: 400px;
+  background-image: url("../images/Step next.png");
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+}
+.container .types-of-work .first-types .types-block {
+  width: 85%;
+  height: 177px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .types-of-work .first-types .types-block .step-one {
+  font-size: 0.55rem;
+  font-weight: 700;
+  word-spacing: 1px;
+  letter-spacing: 3px;
+  color: white;
+  background: #ff4e50;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+.container .types-of-work .first-types .types-block .text-bold {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+}
+.container .types-of-work .first-types .types-block .text-footer {
+  font-family: "Roboto", sans-serif;
+  color: #e3e3e3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container .types-of-work .second-types {
+  width: 300px;
+  height: 400px;
+  background-image: url("../images/Step 1 image.png");
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+}
+.container .types-of-work .second-types .types-block {
+  width: 85%;
+  height: 153px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .types-of-work .second-types .types-block .step-one {
+  font-size: 0.55rem;
+  font-weight: 700;
+  word-spacing: 1px;
+  letter-spacing: 3px;
+  color: white;
+  background: #ff4e50;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+.container .types-of-work .second-types .types-block .text-bold {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+}
+.container .types-of-work .second-types .types-block .text-footer {
+  font-family: "Roboto", sans-serif;
+  color: #e3e3e3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container .types-of-work .third-types {
+  width: 300px;
+  height: 400px;
+  background-image: url("../images/Step foot.png");
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+}
+.container .types-of-work .third-types .types-block {
+  width: 85%;
+  height: 177px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .types-of-work .third-types .types-block .step-one {
+  font-size: 0.55rem;
+  font-weight: 700;
+  word-spacing: 1px;
+  letter-spacing: 3px;
+  color: white;
+  background: #ff4e50;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+.container .types-of-work .third-types .types-block .text-bold {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+}
+.container .types-of-work .third-types .types-block .text-footer {
+  font-family: "Roboto", sans-serif;
+  color: #e3e3e3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.images-people_group .people_group .imeg_four .imeg-next, .images-people_group .people_group .imeg_three .imeg-next, .images-people_group .people_group .imeg_two .imeg-next {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 13px;
+  box-shadow: 0px 0px 0px 4px white;
+}
+
+.title-second-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.images-people_group {
+  width: 89%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+.images-people_group .people_group {
+  width: 24%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
+.images-people_group .people_group .imeg_one {
+  width: 170px;
+  height: 170px;
+  background-image: url("../images/menone.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.images-people_group .people_group .imeg_one .imeg-next {
+  background-image: url("../images/music.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ff4e50;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 13px;
+  box-shadow: 0px 0px 0px 7px white;
+}
+.images-people_group .people_group .imeg_two {
+  background-image: url("../images/womentwo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  width: 170px;
+  height: 170px;
+}
+.images-people_group .people_group .imeg_two .imeg-next {
+  background-image: url("../images/pensel.png");
+  background-color: #19D4CA;
+}
+.images-people_group .people_group .imeg_three {
+  background-image: url("../images/womenthry.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  width: 170px;
+  height: 170px;
+}
+.images-people_group .people_group .imeg_three .imeg-next {
+  background-image: url("../images/camera.png");
+  background-color: #ffa710;
+}
+.images-people_group .people_group .imeg_four {
+  background-image: url("../images/menfour.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  width: 170px;
+  height: 170px;
+}
+.images-people_group .people_group .imeg_four .imeg-next {
+  background-image: url("../images/fly.png");
+  background-color: #667df3;
+}
+
+.text_after {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #666666;
+}
+
+.border-text {
+  font-weight: 700;
+}
+
+.two {
+  margin-top: 2%;
+}
+
+.two_next {
+  margin-bottom: 6px;
+}
+
+nav .main_picture .img_seven, nav .main_picture .img_six, nav .main_picture .img_five, nav .main_picture .img_four, nav .main_picture .img_three, nav .main_picture .img_two, nav .main_picture .img_one {
+  color: white;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+}
+
+nav {
+  width: 100%;
+  height: 1100;
+}
+nav .header_title_picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+nav .main_picture {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+nav .main_picture .img_one {
+  background-image: url("../images/Bitmap (6).png");
+}
+nav .main_picture .img_two {
+  background-image: url("../images/Bitmap (7).png");
+}
+nav .main_picture .img_three {
+  background-image: url("../images/Bitmap (8).png");
+}
+nav .main_picture .img_four {
+  background-image: url("../images/Bitmap (9).png");
+}
+nav .main_picture .img_five {
+  background-image: url("../images/Bitmap (10).png");
+}
+nav .main_picture .img_six {
+  background-image: url("../images/Bitmap (12).png");
+}
+nav .main_picture .img_seven {
+  background-image: url("../images/Bitmap (11).png");
+}
+nav .main_picture .picture {
+  width: 300px;
+  height: 310px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+nav .main_picture .picture_next-big {
+  width: 620px;
+  height: 310px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.footer {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.d-flex-colum {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+.d-flex-colum .width {
+  width: 299px;
+  height: 40px;
+  padding-left: 9px;
+  border: 1px solid #D4D4D4;
+}
+.d-flex-colum .width:focus {
+  border: 3px solid blue;
+}
+.d-flex-colum .color {
+  width: 172px;
+  background-color: #FF4E50;
+  margin-left: 2%;
+}
+
+.text_footer_center {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  margin-top: 43px;
+  text-align: center;
+  color: #666666;
+}
+
+footer {
+  border-top: 2px solid #FF4E50;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footer_title {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+}
+footer .footer_title .footer_logo {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #cccccc;
+}
+footer .footer_title .footer_company {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 200px;
+}
+footer .footer_title .footer_company .company-title {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+footer .footer_title .footer_company .footer_company_names .text_foooter_company {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+  margin: 3px;
+}
+footer .footer_title .names_images-span {
+  color: #ff4e50;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2600px) {
+  body {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container-background .header_page__header {
+    width: 585px;
+    height: 300px;
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container-background .header_page__header {
+    width: 585px;
+    height: 300px;
+    position: absolute;
+    top: 37%;
+    left: 23%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 820px) {
+  .container-background .header_page__header {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container,
+.container-md,
+.container-sm {
+    max-width: 812px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 609px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .third-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  nav .main_picture .picture {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 492px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 950px) {
+  .container-background .header_page__header {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container,
+.container-md,
+.container-sm {
+    max-width: 812px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 609px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .third-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  nav .main_picture .picture {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 492px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1199px) {
+  .container-background .header_page__header {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container,
+.container-md,
+.container-sm {
+    max-width: 812px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 609px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .third-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  nav .main_picture .picture {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 492px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 1250px) and (max-width: 1399px) {
+  .container .types-of-work .first-types {
+    width: 400px;
+    height: 500px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  footer .footer_title .names_images-span {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  footer .footer_title .footer_company .company-title {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  footer .footer_title .footer_company .footer_company_names .text_foooter_company {
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+  .container .types-of-work .second-types {
+    width: 400px;
+    height: 500px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1%;
+  }
+
+  .container .types-of-work .third-types {
+    width: 400px;
+    height: 500px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1%;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+  .container-background .header_page__header {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container,
+.container-md,
+.container-sm {
+    max-width: 812px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 609px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .third-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  nav .main_picture .picture {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 492px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+  .container-background .header_page__header {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container,
+.container-md,
+.container-sm {
+    max-width: 812px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 609px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .third-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  nav .main_picture .picture {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 492px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 690px) and (max-width: 750px) {
+  .container-background .header_page__header {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container,
+.container-md,
+.container-sm {
+    max-width: 812px;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 609px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .container .types-of-work .third-types {
+    width: 236px;
+    height: 400px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  nav .main_picture .picture {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 492px;
+    height: 310px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .container-background .header_page__header {
+    width: 271px;
+    height: 178px;
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+
+  .menu .righ {
+    display: none;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  .container .types-of-work .third-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  nav .main_picture .picture {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  .d-flex-colum {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .d-flex-colum .color {
+    width: 301px;
+    background-color: #FF4E50;
+    margin-top: 2%;
+  }
+
+  .two {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .text_footer_center {
+    margin-top: 15px;
+  }
+
+  .title-second-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    text-align: center;
+    width: 287px;
+    margin-left: 10%;
+  }
+
+  .footer {
+    height: 246px;
+    margin-top: 11%;
+  }
+  .footer .footer_title {
+    width: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    border-top: 2px solid #FF4E50;
+    width: 100%;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer_title {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+  }
+  footer .footer_title .footer_logo {
+    height: 50px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_logo .img_footer {
+    margin-top: -11px;
+  }
+  footer .footer_title .footer_company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer_title .footer_company .company-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_company .footer_company_names {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer .footer_title .footer_company .footer_company_names .text_foooter_company {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;
+    margin: 3px;
+  }
+  footer .footer_title .names_images {
+    width: 130px;
+    text-align: center;
+  }
+  footer .footer_title .names_images-span {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 470px) {
+  .container-background .header_page__header {
+    width: 271px;
+    height: 178px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+
+  .menu .righ {
+    display: none;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  .container .types-of-work .third-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  nav .main_picture .picture {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  .d-flex-colum {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .d-flex-colum .color {
+    width: 301px;
+    background-color: #FF4E50;
+    margin-top: 2%;
+  }
+
+  .two {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .text_footer_center {
+    margin-top: 15px;
+  }
+
+  .title-second-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    text-align: center;
+    width: 287px;
+    margin: 0 auto;
+  }
+
+  .container .types-of-work .third-types {
+    margin-bottom: 9%;
+  }
+
+  .footer {
+    height: 246px;
+    margin-top: 11%;
+  }
+  .footer .footer_title {
+    width: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    border-top: 2px solid #FF4E50;
+    width: 100%;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer_title {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+  }
+  footer .footer_title .footer_logo {
+    height: 50px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_logo .img_footer {
+    margin-top: -11px;
+  }
+  footer .footer_title .footer_company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer_title .footer_company .company-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_company .footer_company_names {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer .footer_title .footer_company .footer_company_names .text_foooter_company {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;
+    margin: 3px;
+  }
+  footer .footer_title .names_images {
+    width: 130px;
+    text-align: center;
+  }
+  footer .footer_title .names_images-span {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 690px) {
+  .container-background .header_page__header {
+    width: 271px;
+    height: 178px;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+
+  .menu .righ {
+    display: none;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  .container .types-of-work .third-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  nav .main_picture .picture {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  .d-flex-colum {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .d-flex-colum .color {
+    width: 301px;
+    background-color: #FF4E50;
+    margin-top: 2%;
+  }
+
+  .two {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .text_footer_center {
+    margin-top: 15px;
+  }
+
+  .title-second-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    text-align: center;
+    width: 287px;
+    margin: 0 auto;
+  }
+
+  .container .types-of-work .third-types {
+    margin-bottom: 9%;
+  }
+
+  .footer {
+    height: 246px;
+    margin-top: 11%;
+  }
+  .footer .footer_title {
+    width: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    border-top: 2px solid #FF4E50;
+    width: 100%;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer_title {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+  }
+  footer .footer_title .footer_logo {
+    height: 50px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_logo .img_footer {
+    margin-top: -11px;
+  }
+  footer .footer_title .footer_company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer_title .footer_company .company-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_company .footer_company_names {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer .footer_title .footer_company .footer_company_names .text_foooter_company {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;
+    margin: 3px;
+  }
+  footer .footer_title .names_images {
+    width: 130px;
+    text-align: center;
+  }
+  footer .footer_title .names_images-span {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}
+@media screen and (min-width: 470px) and (max-width: 600px) {
+  .container-background .header_page__header {
+    width: 271px;
+    height: 178px;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+
+  .menu .righ {
+    display: none;
+  }
+
+  .container-background .header_page__header .header_page__h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container-background .header_page__header .header__page_p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .container .types-of-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  .images-people_group .people_group {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .images-people_group {
+    width: 89%;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+  }
+
+  .container .types-of-work .first-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step next.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container .types-of-work .second-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step 1 image.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  .container .types-of-work .third-types {
+    width: 300px;
+    height: 240px;
+    background-image: url("../images/Step foot.png");
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+
+  nav .main_picture .picture {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  nav .main_picture .picture_next-big {
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+  }
+
+  .d-flex-colum {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .d-flex-colum .color {
+    width: 301px;
+    background-color: #FF4E50;
+    margin-top: 2%;
+  }
+
+  .two {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .text_footer_center {
+    margin-top: 15px;
+  }
+
+  .title-second-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    text-align: center;
+    width: 287px;
+    margin: 0 auto;
+  }
+
+  .container .types-of-work .third-types {
+    margin-bottom: 9%;
+  }
+
+  .footer {
+    height: 246px;
+    margin-top: 11%;
+  }
+  .footer .footer_title {
+    width: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    border-top: 2px solid #FF4E50;
+    width: 100%;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer_title {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+  }
+  footer .footer_title .footer_logo {
+    height: 50px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_logo .img_footer {
+    margin-top: -11px;
+  }
+  footer .footer_title .footer_company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer_title .footer_company .company-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  footer .footer_title .footer_company .footer_company_names {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer .footer_title .footer_company .footer_company_names .text_foooter_company {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;
+    margin: 3px;
+  }
+  footer .footer_title .names_images {
+    width: 130px;
+    text-align: center;
+  }
+  footer .footer_title .names_images-span {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}/*# sourceMappingURL=main.css.map */
